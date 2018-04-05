@@ -1,4 +1,4 @@
-# escrowcontract
+# Escrowcontract
 Typical Escrow smart contract for Ethereum blockchain
 
 ```
