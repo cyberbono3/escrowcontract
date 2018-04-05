@@ -1,7 +1,7 @@
 # escrowcontract
 Typical Escrow smart contract for Ethereum blockchain
 
-
+``
 pragma solidity ^0.4.11;
 contract Escrow {
 
@@ -33,7 +33,10 @@ contract Escrow {
   }
 }
 
+``
 ## Deployment setup with ethereum testrpc
+
+``
 
 var solc = require("solc")
 
@@ -59,6 +62,7 @@ gas:47000000,
 gasPrice:5,
 value: web3.toWei(5, 'ether')
 }, (error,contract) => {})   
+``
 
 5 ether will be sent to the contract upon creation
 
