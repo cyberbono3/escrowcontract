@@ -1,5 +1,9 @@
 # Escrowcontract
-Typical Escrow smart contract for Ethereum blockchain
+The simple Escrow smart contract for Ethereum blockchain
+Variables _seller and _arbiter have to be defined before the contract is created.
+Only buyer or arbiter are able to make payout to seller.
+
+
 
 ```
 pragma solidity ^0.4.11;
