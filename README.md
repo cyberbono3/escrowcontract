@@ -50,9 +50,9 @@ var bytecode = compiled.contracts[':Escrow'].bytecode
 var EscrowContract = web3.eth.contract(abi)
 
 
-var seller = web3.eth.acconts[0];
-var buyer = web3.eth.acconts[1];
-var arbiter= web3.eth.acconts[2];
+var seller = web3.eth.accounts[0];
+var buyer = web3.eth.accounts[1];
+var arbiter= web3.eth.accounts[2];
 
 
 var deployed =EscrowContract.new(seller,arbiter, {
